@@ -150,9 +150,9 @@ else{
 			'template_slug' => 'church_plant_home',
 			'template_title' => __( 'Home', 'church_plant_theme_bundle' ),
 			'template_description' => __('Created using: Church Plant Theme Bundle\'s "Home" Stack.', 'church_plant_theme_bundle' ),
-			'template_tags' => 'church, home',
+			'template_tags' => 'home, church',
 			'template_preview_img' => plugins_url( '/images/preview_thumbnail.jpg', __FILE__ ),
-			'template_demo_url' => 'https://demo.mintplugins.com/church-plant/',
+			'template_demo_url' => 'https://demo.mintplugins.com/church-plant',
 		);
 		
 		return $installed_templates;
@@ -171,7 +171,7 @@ else{
 	 */
 	function mp_stacks_templates_church_plant_home_to_default_stacks( $default_stacks_to_create ){ 
 				
-		$default_stacks_to_create['page']['church_plant_home'] = array( 'title' => 'Home','is_home' => true,'add_to_primary_menu' => 'true', );
+		$default_stacks_to_create['page']['church_plant_home'] = array( 'title' => 'Home','is_home' => true,'page_template' => 'default','add_to_primary_menu' => 'true', );
 		
 		return $default_stacks_to_create;
 	
@@ -198,11 +198,11 @@ else{
       'mp_stack_order' => 1000,
       '_edit_lock' => 
       array (
-        'value' => '1467414265:10',
+        'value' => '1469672062:3',
       ),
       '_edit_last' => 
       array (
-        'value' => '10',
+        'value' => '3',
       ),
       'brick_no_borders' => 
       array (
@@ -218,7 +218,8 @@ else{
       ),
       'brick_bg_image' => 
       array (
-        'value' => 'http://demo.mintplugins.com/church-plant/wp-content/uploads/sites/17/2016/05/church-plant_home-2.jpg',
+        'value' => 'church-plant_home-2.jpg',
+        'attachment' => true,
       ),
       'brick_second_content_type' => 
       array (
@@ -923,11 +924,11 @@ else{
       'mp_stack_order' => 1030,
       '_edit_lock' => 
       array (
-        'value' => '1467414430:10',
+        'value' => '1469672069:3',
       ),
       '_edit_last' => 
       array (
-        'value' => '10',
+        'value' => '3',
       ),
       'brick_min_height' => 
       array (
@@ -939,7 +940,8 @@ else{
       ),
       'brick_bg_image' => 
       array (
-        'value' => 'http://demo.mintplugins.com/church-plant/wp-content/uploads/sites/17/2016/05/living-room-690174.jpg',
+        'value' => 'living-room-690174.jpg',
+        'attachment' => true,
       ),
       'mp_stack_id' => 
       array (
@@ -1238,7 +1240,7 @@ else{
       'mp_stack_order' => 1040,
       '_edit_lock' => 
       array (
-        'value' => '1467414534:10',
+        'value' => '1469554867:10',
       ),
       '_edit_last' => 
       array (
@@ -1293,7 +1295,7 @@ else{
             ),
             'brick_text_font_size_tablet' => 
             array (
-              'value' => '',
+              'value' => '45',
               'attachment' => false,
             ),
             'brick_text_line_height_tablet' => 
@@ -1318,12 +1320,12 @@ else{
             ),
             'brick_text_font_size_mobile' => 
             array (
-              'value' => '40',
+              'value' => '25',
               'attachment' => false,
             ),
             'brick_text_line_height_mobile' => 
             array (
-              'value' => '40',
+              'value' => '',
               'attachment' => false,
             ),
             'brick_text_paragraph_margin_bottom_mobile' => 
@@ -1997,7 +1999,7 @@ else{
       'mp_stack_order' => 1050,
       '_edit_lock' => 
       array (
-        'value' => '1467414314:10',
+        'value' => '1469554407:10',
       ),
       '_edit_last' => 
       array (
@@ -2142,7 +2144,7 @@ else{
             ),
             'brick_text_font_size_tablet' => 
             array (
-              'value' => '',
+              'value' => '20',
               'attachment' => false,
             ),
             'brick_text_line_height_tablet' => 
