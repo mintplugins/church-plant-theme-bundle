@@ -11,7 +11,7 @@ Domain Path: languages
 License: GPL2
 */
 
-/*  Copyright 2015  Phil Johnston  (email : phil@mintplugins.com)
+/*  Copyright 2016  Phil Johnston  (email : phil@mintplugins.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -228,7 +228,7 @@ function church_plant_theme_bundle_include_files(){
             /**
 			 *  Small Groups
 			 */
-			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-small-groups/church-plant-small-groups.php' );
+			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-small-group/church-plant-small-group.php' );
             
             /**
 			 *  Social Media For Footer
