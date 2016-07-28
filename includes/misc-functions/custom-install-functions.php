@@ -32,11 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
  */
 function church_plant_theme_bundle_theme_mods(){
 			
-	return array ( 
-	
-		0 => false, 'mp_core_logo' => 'http://demo.mintplugins.com/growing-church-theme-bundle/wp-content/uploads/sites/10/2015/11/church-logo-here.png', 'mp_core_logo_width' => '100', 'mp_knapstack_font_family' => 'Montserrat', 'mp_knapstack_text_color' => '#323b44', 'mp_knapstack_subtext_color' => '#44301d', 'mp_knapstack_button_submit' => '#73a2c4', 'mp_knapstack_button_hover' => '#5094c4', 'mp_stacks_footer_stack' => 8, 'nav_menu_locations' => array ( 'primary' => 9, ), 'mp_menu_toggle_color' => '#ffffff', 'mp_menu_open_from' => 'mp-menu-right.css', 'mp_menu_bg_color' => '#ffffff', 'mp_menu_text_color' => '#2d2d2d', 'mp_knapstack_page_header_bg_color' => '#222222', 'mp_knapstack_header_bg_color' => '#100700', 'mp_knapstack_header_font' => 'Montserrat', 'mp_knapstack_header_font_size' => '15', 'mp_knapstack_link_color' => '#593418', 'mp_knapstack_link_hover_color' => '#462c18', 'mp_knapstack_header_nav_text_color' => '#ffffff', 'mp_knapstack_borders' => '#73a2c4', 'mp_knapstack_secondary_bg_color' => '#73a2c4', 'mp_knapstack_form_input_inactive_color' => '#444b4c', 'mp_knapstack_form_input_active_color' => '#73a2c4', 
-		
-	);
+	return array ( 0 => false, 'mp_knapstack_header_bg_color_opacity' => '0', 'mp_knapstack_header_bg_color' => '#ffffff', 'mp_core_logo' => 'https://demo.mintplugins.com/church-plant/wp-content/uploads/sites/17/2016/07/church-plant-logo.png', 'mp_core_logo_width' => '400', 'nav_menu_locations' => array ( 'primary' => 3, ), 'mp_knapstack_header_bg_color_opacity_at_scroll' => '', 'mp_knapstack_header_font_size' => '12', 'mp_knapstack_header_fixed' => 'absolute', 'mp_knapstack_header_bg_opacity_scroll_amount' => '', 'mp_knapstack_sub_header_positioning' => 'left', 'mp_search_in_menu_searchicon_color' => '#ffffff', 'mp_stacks_footer_stack' => '21', 'mp_knapstack_header_nav_text_hover_color' => '#b7b7b7', 'mp_knapstack_header_font' => 'Montserrat', 'mp_knapstack_header_bump_site_down' => false, 'mp_menu_change_at_screen_width' => '800', 'mp_menu_toggle_color' => '#ffffff', 'mp_knapstack_page_header_bg_image' => 'https://demo.mintplugins.com/church-plant/wp-content/uploads/sites/17/2016/06/blog_black.jpg', 'mp_knapstack_page_header_button_submit' => '#515151', 'mp_menu_open_from' => 'mp-menu-right.css', 'mp_menu_attachment' => 'absolute', );
 	
 }
 add_filter( 'mp_stacks_required_theme_mods_for_' . 'church_plant_theme_bundle', 'church_plant_theme_bundle_theme_mods' );
