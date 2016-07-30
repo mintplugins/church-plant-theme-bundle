@@ -476,7 +476,7 @@ else{
           array (
             'linkgrid_link_url' => 
             array (
-              'value' => 'https://demo.mintplugins.com/church-plant/bible-study/',
+              'value' => '/',
               'attachment' => false,
             ),
             'linkgrid_link_open_type' => 
@@ -514,7 +514,7 @@ else{
           array (
             'linkgrid_link_url' => 
             array (
-              'value' => 'https://demo.mintplugins.com/church-plant/youth-group/',
+              'value' => '/',
               'attachment' => false,
             ),
             'linkgrid_link_open_type' => 
@@ -552,7 +552,7 @@ else{
           array (
             'linkgrid_link_url' => 
             array (
-              'value' => 'https://demo.mintplugins.com/church-plant/food-for-life/',
+              'value' => '/',
               'attachment' => false,
             ),
             'linkgrid_link_open_type' => 
@@ -590,7 +590,7 @@ else{
           array (
             'linkgrid_link_url' => 
             array (
-              'value' => 'https://demo.mintplugins.com/church-plant/womens-ministry/',
+              'value' => '/',
               'attachment' => false,
             ),
             'linkgrid_link_open_type' => 
@@ -628,7 +628,7 @@ else{
           array (
             'linkgrid_link_url' => 
             array (
-              'value' => 'https://demo.mintplugins.com/church-plant/life-groups/',
+              'value' => '/',
               'attachment' => false,
             ),
             'linkgrid_link_open_type' => 
@@ -666,7 +666,7 @@ else{
           array (
             'linkgrid_link_url' => 
             array (
-              'value' => 'https://demo.mintplugins.com/church-plant/mens-ministry/',
+              'value' => '/',
               'attachment' => false,
             ),
             'linkgrid_link_open_type' => 
@@ -1843,7 +1843,7 @@ else{
           array (
             'linkgrid_link_url' => 
             array (
-              'value' => 'https://demo.mintplugins.com/church-plant/dan-smith/',
+              'value' => '/team-member-guy/',
               'attachment' => false,
             ),
             'linkgrid_link_open_type' => 
@@ -1881,7 +1881,7 @@ else{
           array (
             'linkgrid_link_url' => 
             array (
-              'value' => 'https://demo.mintplugins.com/church-plant/jenn-smith/',
+              'value' => '/team-member-girl/',
               'attachment' => false,
             ),
             'linkgrid_link_open_type' => 
@@ -1919,7 +1919,7 @@ else{
           array (
             'linkgrid_link_url' => 
             array (
-              'value' => 'https://demo.mintplugins.com/church-plant/jane-doe/',
+              'value' => '/',
               'attachment' => false,
             ),
             'linkgrid_link_open_type' => 
@@ -1957,7 +1957,7 @@ else{
           array (
             'linkgrid_link_url' => 
             array (
-              'value' => 'https://demo.mintplugins.com/church-plant/john-doe/',
+              'value' => '/',
               'attachment' => false,
             ),
             'linkgrid_link_open_type' => 
