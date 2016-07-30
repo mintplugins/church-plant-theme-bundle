@@ -3404,7 +3404,7 @@ else{
             ),
             'brick_second_text' => 
             array (
-              'value' => '&lt;p&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;ASK US QUESTIONS&quot; link=&quot;https://demo.mintplugins.com/church-plant/connect/#connect_brick-3&quot; btn_bg=&quot;show&quot; color=&quot;#be1e2d&quot; hover_color=&quot;#ffffff&quot; text_color=&quot;#ffffff&quot; hover_text_color=&quot;#be1e2d&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/p&gt;
+              'value' => '&lt;p&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;ASK US QUESTIONS&quot; link=&quot;/connect/#connect_brick-3&quot; btn_bg=&quot;show&quot; color=&quot;#be1e2d&quot; hover_color=&quot;#ffffff&quot; text_color=&quot;#ffffff&quot; hover_text_color=&quot;#be1e2d&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/p&gt;
 ',
               'attachment' => false,
             ),
