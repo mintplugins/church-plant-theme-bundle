@@ -804,7 +804,7 @@ else{
             ),
             'feature_text' => 
             array (
-              'value' => '&lt;p&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;PLAN A VISIT&quot; link=&quot;https://demo.mintplugins.com/church-plant/connect/#connect_brick-5&quot; btn_bg=&quot;show&quot; color=&quot;#003149&quot; hover_color=&quot;#515151&quot; text_color=&quot;#ffffff&quot; hover_text_color=&quot;#ffffff&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/p&gt;
+              'value' => '&lt;p&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;PLAN A VISIT&quot; link=&quot;/connect/#connect_brick-5&quot; btn_bg=&quot;show&quot; color=&quot;#003149&quot; hover_color=&quot;#515151&quot; text_color=&quot;#ffffff&quot; hover_text_color=&quot;#ffffff&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/p&gt;
 ',
               'attachment' => false,
             ),
@@ -843,7 +843,7 @@ else{
             ),
             'feature_text' => 
             array (
-              'value' => '&lt;p&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;MEET TEAM&quot; link=&quot;https://demo.mintplugins.com/church-plant/about/#about_brick-5&quot; btn_bg=&quot;show&quot; color=&quot;#be1e2d&quot; hover_color=&quot;#515151&quot; text_color=&quot;#ffffff&quot; hover_text_color=&quot;#ffffff&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/p&gt;
+              'value' => '&lt;p&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;MEET TEAM&quot; link=&quot;/about/#about_brick-5&quot; btn_bg=&quot;show&quot; color=&quot;#be1e2d&quot; hover_color=&quot;#515151&quot; text_color=&quot;#ffffff&quot; hover_text_color=&quot;#ffffff&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/p&gt;
 ',
               'attachment' => false,
             ),
@@ -882,7 +882,7 @@ else{
             ),
             'feature_text' => 
             array (
-              'value' => '&lt;p&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;GET DIRECTIONS&quot; link=&quot;https://demo.mintplugins.com/church-plant/connect/#connect_brick-4&quot; btn_bg=&quot;show&quot; color=&quot;#00a79d&quot; hover_color=&quot;#515151&quot; text_color=&quot;#ffffff&quot; hover_text_color=&quot;#ffffff&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/p&gt;
+              'value' => '&lt;p&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;GET DIRECTIONS&quot; link=&quot;/connect/#connect_brick-4&quot; btn_bg=&quot;show&quot; color=&quot;#00a79d&quot; hover_color=&quot;#515151&quot; text_color=&quot;#ffffff&quot; hover_text_color=&quot;#ffffff&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/p&gt;
 ',
               'attachment' => false,
             ),
@@ -1214,7 +1214,7 @@ else{
             ),
             'brick_text' => 
             array (
-              'value' => '&lt;p&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;REACH OUT&quot; link=&quot;https://demo.mintplugins.com/church-plant/connect/#connect_brick-3&quot; btn_bg=&quot;show&quot; color=&quot;#00a79d&quot; hover_color=&quot;#f2f2f2&quot; text_color=&quot;#f2f2f2&quot; hover_text_color=&quot;#00a79d&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/p&gt;
+              'value' => '&lt;p&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;REACH OUT&quot; link=&quot;/connect/#connect_brick-3&quot; btn_bg=&quot;show&quot; color=&quot;#00a79d&quot; hover_color=&quot;#f2f2f2&quot; text_color=&quot;#f2f2f2&quot; hover_text_color=&quot;#00a79d&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/p&gt;
 ',
               'attachment' => false,
             ),
@@ -2096,7 +2096,7 @@ else{
             ),
             'brick_second_text' => 
             array (
-              'value' => '&lt;p class=&quot;p1&quot;&gt;&lt;span class=&quot;s1&quot;&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;SUBSCRIBE NOW&quot; link=&quot;https://demo.mintplugins.com/church-plant/ctc-sermons/feed/&quot; btn_bg=&quot;show&quot; color=&quot;#9e1f63&quot; hover_color=&quot;#f2f2f2&quot; text_color=&quot;#f2f2f2&quot; hover_text_color=&quot;#9e1f63&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/span&gt;&lt;/p&gt;
+              'value' => '&lt;p class=&quot;p1&quot;&gt;&lt;span class=&quot;s1&quot;&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;SUBSCRIBE NOW&quot; link=&quot;/ctc-sermons/feed/&quot; btn_bg=&quot;show&quot; color=&quot;#9e1f63&quot; hover_color=&quot;#f2f2f2&quot; text_color=&quot;#f2f2f2&quot; hover_text_color=&quot;#9e1f63&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/span&gt;&lt;/p&gt;
 ',
               'attachment' => false,
             ),
