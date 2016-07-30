@@ -836,7 +836,7 @@ else{
             ),
             'feature_icon_link' => 
             array (
-              'value' => 'http:/www.facebook.com',
+              'value' => 'http://www.facebook.com',
               'attachment' => false,
             ),
             'feature_icon_link_type' => 
@@ -874,7 +874,7 @@ else{
             ),
             'feature_icon_link' => 
             array (
-              'value' => 'http:/www.instagram.com',
+              'value' => 'http://www.instagram.com',
               'attachment' => false,
             ),
             'feature_icon_link_type' => 
@@ -912,7 +912,7 @@ else{
             ),
             'feature_icon_link' => 
             array (
-              'value' => 'http:/www.twitter.com',
+              'value' => 'http://www.twitter.com',
               'attachment' => false,
             ),
             'feature_icon_link_type' => 
@@ -950,7 +950,7 @@ else{
             ),
             'feature_icon_link' => 
             array (
-              'value' => 'http:/www.linkedin.com',
+              'value' => 'http://www.linkedin.com',
               'attachment' => false,
             ),
             'feature_icon_link_type' => 
@@ -1037,7 +1037,7 @@ else{
             ),
             'sociallink_icon_link' => 
             array (
-              'value' => 'http:/www.facebook.com',
+              'value' => 'http://www.facebook.com',
               'attachment' => false,
             ),
             'sociallink_icon_link_type' => 
@@ -1085,7 +1085,7 @@ else{
             ),
             'sociallink_icon_link' => 
             array (
-              'value' => 'http:/www.instagram.com',
+              'value' => 'http://www.instagram.com',
               'attachment' => false,
             ),
             'sociallink_icon_link_type' => 
@@ -1133,7 +1133,7 @@ else{
             ),
             'sociallink_icon_link' => 
             array (
-              'value' => 'http:/www.twitter.com',
+              'value' => 'http://www.twitter.com',
               'attachment' => false,
             ),
             'sociallink_icon_link_type' => 
@@ -1181,7 +1181,7 @@ else{
             ),
             'sociallink_icon_link' => 
             array (
-              'value' => 'http:/www.linkedin.com',
+              'value' => 'http://www.linkedin.com',
               'attachment' => false,
             ),
             'sociallink_icon_link_type' => 
@@ -1473,7 +1473,7 @@ else{
             ),
             'email_subject_line' => 
             array (
-              'value' => 'Form submitted from https://demo.mintplugins.com/church-plant',
+              'value' => 'Form submitted from website',
               'attachment' => false,
             ),
             'mp_stacks_forms_redirect_url' => 
@@ -3483,7 +3483,7 @@ TO HEAR FROM YOU!&lt;/p&gt;
             ),
             'brick_text' => 
             array (
-              'value' => '&lt;p&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;SEE ALL EVENTS&quot; link=&quot;https://demo.mintplugins.com/church-plant/events/#events_-brick-2&quot; btn_bg=&quot;show&quot; color=&quot;#9e1f63&quot; hover_color=&quot;#ffffff&quot; text_color=&quot;#ffffff&quot; hover_text_color=&quot;#9e1f63&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/p&gt;
+              'value' => '&lt;p&gt;[mp_button icon=&quot;&quot; icon_position=&quot;left&quot; icon_size=&quot;&quot; icon_spacing=&quot;&quot; text=&quot;SEE ALL EVENTS&quot; link=&quot;/events/&quot; btn_bg=&quot;show&quot; color=&quot;#9e1f63&quot; hover_color=&quot;#ffffff&quot; text_color=&quot;#ffffff&quot; hover_text_color=&quot;#9e1f63&quot; open_type=&quot;_self&quot; lightbox_width=&quot;500&quot; lightbox_height=&quot;500&quot;]&lt;/p&gt;
 ',
               'attachment' => false,
             ),
@@ -3846,7 +3846,7 @@ TO HEAR FROM YOU!&lt;/p&gt;
       ),
       'brick_bg_image' => 
       array (
-        'value' => 'events.jpg',
+        'value' => 'events-bg.jpg',
         'attachment' => true,
       ),
       'eventgrid_title_color' => 
