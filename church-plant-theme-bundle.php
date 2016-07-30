@@ -2,7 +2,7 @@
 /*
 Plugin Name: Church Plant Theme Bundle
 Plugin URI: https://mintplugins.com
-Description: A bundle of Stack Templates, Plugins, a Theme, and everything needed for the Restore Church Theme Experience.
+Description: A bundle of Stack Templates, Plugins, a Theme, and everything needed for the Church Plant Theme Experience.
 Version: 1.0.0.1
 Author: Mint Plugins
 Author URI: http://mintplugins.com
