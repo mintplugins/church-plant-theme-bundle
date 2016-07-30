@@ -3,7 +3,7 @@
 Plugin Name: Church Plant Theme Bundle
 Plugin URI: https://mintplugins.com
 Description: A bundle of Stack Templates, Plugins, a Theme, and everything needed for the Church Plant Theme Experience.
-Version: 1.0.0.2
+Version: 1.0.0.3
 Author: Mint Plugins
 Author URI: http://mintplugins.com
 Text Domain: church_plant_theme_bundle
@@ -34,7 +34,7 @@ License: GPL2
 */
 // Plugin version
 if( !defined( 'CHURCH_PLANT_THEME_BUNDLE_VERSION' ) )
-	define( 'CHURCH_PLANT_THEME_BUNDLE_VERSION', '1.0.0.2' );
+	define( 'CHURCH_PLANT_THEME_BUNDLE_VERSION', '1.0.0.3' );
 
 // Plugin Folder URL
 if( !defined( 'CHURCH_PLANT_THEME_BUNDLE_PLUGIN_URL' ) )

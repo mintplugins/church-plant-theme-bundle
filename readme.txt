@@ -4,7 +4,7 @@ Donate link: http://mintplugins.com/
 Tags: page, builder, stacks, bricks
 Requires at least: 3.5
 Tested up to: 4.4
-Stable tag: 1.0.0.2
+Stable tag: 1.0.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,9 @@ See full instructions at http://mintplugins.com/doc/church-plant-theme-bundle
 
 
 == Changelog ==
+
+= 1.0.0.3 = July 30, 2016
+* Removed demo site URL from buton links
 
 = 1.0.0.2 = July 30, 2016
 * Remove LinkGrid links to demo site
