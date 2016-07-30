@@ -1364,7 +1364,7 @@ else{
             ),
             'feature_icon_link' => 
             array (
-              'value' => 'http:/www.facebook.com',
+              'value' => 'http://www.facebook.com',
               'attachment' => false,
             ),
             'feature_icon_link_type' => 
@@ -1402,7 +1402,7 @@ else{
             ),
             'feature_icon_link' => 
             array (
-              'value' => 'http:/www.instagram.com',
+              'value' => 'http://www.instagram.com',
               'attachment' => false,
             ),
             'feature_icon_link_type' => 
@@ -1440,7 +1440,7 @@ else{
             ),
             'feature_icon_link' => 
             array (
-              'value' => 'http:/www.twitter.com',
+              'value' => 'http://www.twitter.com',
               'attachment' => false,
             ),
             'feature_icon_link_type' => 
@@ -1478,7 +1478,7 @@ else{
             ),
             'feature_icon_link' => 
             array (
-              'value' => 'http:/www.linkedin.com',
+              'value' => 'http://www.linkedin.com',
               'attachment' => false,
             ),
             'feature_icon_link_type' => 
@@ -1541,7 +1541,7 @@ else{
             ),
             'sociallink_icon_link' => 
             array (
-              'value' => 'http:/www.facebook.com',
+              'value' => 'http://www.facebook.com',
               'attachment' => false,
             ),
             'sociallink_icon_link_type' => 
@@ -1589,7 +1589,7 @@ else{
             ),
             'sociallink_icon_link' => 
             array (
-              'value' => 'http:/www.instagram.com',
+              'value' => 'http://www.instagram.com',
               'attachment' => false,
             ),
             'sociallink_icon_link_type' => 
@@ -1637,7 +1637,7 @@ else{
             ),
             'sociallink_icon_link' => 
             array (
-              'value' => 'http:/www.twitter.com',
+              'value' => 'http://www.twitter.com',
               'attachment' => false,
             ),
             'sociallink_icon_link_type' => 
@@ -1685,7 +1685,7 @@ else{
             ),
             'sociallink_icon_link' => 
             array (
-              'value' => 'http:/www.linkedin.com',
+              'value' => 'http://www.linkedin.com',
               'attachment' => false,
             ),
             'sociallink_icon_link_type' => 
