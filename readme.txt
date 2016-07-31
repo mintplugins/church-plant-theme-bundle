@@ -3,8 +3,8 @@ Contributors: johnstonphilip
 Donate link: http://mintplugins.com/
 Tags: page, builder, stacks, bricks
 Requires at least: 3.5
-Tested up to: 4.4
-Stable tag: 1.0.0.3
+Tested up to: 4.5
+Stable tag: 1.0.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,10 @@ See full instructions at http://mintplugins.com/doc/church-plant-theme-bundle
 
 
 == Changelog ==
+
+= 1.0.0.4 = July 30, 2016
+* Set events brick min-height to 10
+* Fix more social links
 
 = 1.0.0.3 = July 30, 2016
 * Removed demo site URL from buton links
