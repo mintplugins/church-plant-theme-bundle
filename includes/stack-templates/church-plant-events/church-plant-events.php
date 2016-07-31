@@ -852,7 +852,7 @@ else{
       ),
       'brick_min_height' => 
       array (
-        'value' => '500',
+        'value' => '10',
       ),
       'brick_bg_color' => 
       array (
