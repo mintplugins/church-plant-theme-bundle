@@ -3,7 +3,7 @@
 Plugin Name: Church Plant Theme Bundle
 Plugin URI: https://mintplugins.com
 Description: A bundle of Stack Templates, Plugins, a Theme, and everything needed for the Church Plant Theme Experience.
-Version: 1.0.0.4
+Version: 1.0.0.5
 Author: Mint Plugins
 Author URI: http://mintplugins.com
 Text Domain: church_plant_theme_bundle
@@ -14,7 +14,7 @@ License: GPL2
 /*  Copyright 2016  Phil Johnston  (email : phil@mintplugins.com)
 
     This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License, version 2, as 
+    it under the terms of the GNU General Public License, version 2, as
     published by the Free Software Mint Plugins Core.
 
     This program is distributed in the hope that it will be useful,
@@ -34,7 +34,7 @@ License: GPL2
 */
 // Plugin version
 if( !defined( 'CHURCH_PLANT_THEME_BUNDLE_VERSION' ) )
-	define( 'CHURCH_PLANT_THEME_BUNDLE_VERSION', '1.0.0.4' );
+	define( 'CHURCH_PLANT_THEME_BUNDLE_VERSION', '1.0.0.5' );
 
 // Plugin Folder URL
 if( !defined( 'CHURCH_PLANT_THEME_BUNDLE_PLUGIN_URL' ) )
@@ -102,151 +102,151 @@ require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/misc-functions/standar
 |--------------------------------------------------------------------------
 */
 function church_plant_theme_bundle_include_files(){
-		
+
 	/**
 	 * If mp_core isn't active, stop and install it now
 	 */
 	if (!function_exists('mp_core_textdomain')){
-		
+
 		/**
 		 * Include Plugin Checker
 		 */
 		require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . '/includes/plugin-checker/class-plugin-checker.php' );
-		
+
 		/**
 		 * Include Plugin Installer
 		 */
 		require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . '/includes/plugin-checker/class-plugin-installer.php' );
-		
+
 		/**
 		 * Check if mp_core in installed
 		 */
 		include_once( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/plugin-checker/included-plugins/mp-core-check.php' );
-		
+
 	}
 	//If mp_core IS Active
 	else{
-		
+
 		//Check the validity of the license for this plugin (boolean)
 		$plugin_vars = array(
 			'plugin_name' => 'Church Plant Theme Bundle',
 			'plugin_api_url' => 'https://mintplugins.com/',
-		);	
-	
+		);
+
 		$license_key_valid = mp_core_listen_for_license_and_get_validity( $plugin_vars );
-		
+
 		//If we don't have a valid license
 		if( $license_key_valid != true ){
-		
+
 			/**
 			 * Show license form at the top of admin pages
-			 */	
+			 */
 			new MP_CORE_Show_License_Form_In_Notices( array('plugin_name' => 'Church Plant Theme Bundle' ) );
-			
+
 			/**
 			 * Update script - keeps this plugin up to date
 			 */
 			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/updater/church-plant-theme-bundle-update.php' );
-			
-				
+
+
 		}
 		//If MP Stacks or Knapstack aren't installed
 		elseif( !church_plant_theme_bundle_dependencies() ) {
-			
+
 			/**
 			 * Update script - keeps this plugin up to date
 			 */
 			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/updater/church-plant-theme-bundle-update.php' );
-			
+
 			//Loop through each required plugin and check for it
 			foreach( church_plant_theme_bundle_dependencies_array() as $function_exist_name => $checker_file_name ){
-				
+
 				/**
 				 * Check the status of the required plugin and install it if not. Activate it if it is inactive
 				 */
-				require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/plugin-checker/included-plugins/' . $checker_file_name ); 
-				
+				require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/plugin-checker/included-plugins/' . $checker_file_name );
+
 			}
 
-			
+
 		}
 		/**
 		 * Otherwise, if license passes and all required plugins are installed, carry out the plugin's functions
 		 */
 		else{
-				
+
 			/**
 			 * Update script - keeps this plugin up to date
 			 */
 			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/updater/church-plant-theme-bundle-update.php' );
-			
+
 			/**
 			 *  Home
 			 */
 			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-home/church-plant-home.php' );
-			
+
 			/**
 			 *  About
 			 */
-			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-about/church-plant-about.php' );	
-            
+			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-about/church-plant-about.php' );
+
             /**
 			 *  Blog
 			 */
-			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-blog/church-plant-blog.php' );	
-            
+			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-blog/church-plant-blog.php' );
+
             /**
 			 *  Blogs For Footer
 			 */
-			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-blogs-for-footer/church-plant-blogs-for-footer.php' );	
-            
+			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-blogs-for-footer/church-plant-blogs-for-footer.php' );
+
             /**
 			 *  Connect
 			 */
-			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-connect/church-plant-connect.php' );	
-            
+			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-connect/church-plant-connect.php' );
+
             /**
 			 *  Events
 			 */
-			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-events/church-plant-events.php' );	
-            
+			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-events/church-plant-events.php' );
+
             /**
 			 *  Footer
 			 */
-			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-footer/church-plant-footer.php' );	
-            
+			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-footer/church-plant-footer.php' );
+
             /**
 			 *  Resources
 			 */
-			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-resources/church-plant-resources.php' );	
-            
+			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-resources/church-plant-resources.php' );
+
             /**
 			 *  Sermons For Footer
 			 */
-			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-sermons-for-footer/church-plant-sermons-for-footer.php' );	
-            
+			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-sermons-for-footer/church-plant-sermons-for-footer.php' );
+
             /**
 			 *  Small Groups
 			 */
 			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-small-group/church-plant-small-group.php' );
-            
+
             /**
 			 *  Social Media For Footer
 			 */
-			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-social-media-for-footer/church-plant-social-media-for-footer.php' );	
-            
+			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-social-media-for-footer/church-plant-social-media-for-footer.php' );
+
             /**
 			 *  Team Member Girl
 			 */
-			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-team-member-girl/church-plant-team-member-girl.php' );	
-            
+			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-team-member-girl/church-plant-team-member-girl.php' );
+
             /**
 			 *  Team Member Guy
 			 */
-			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-team-member-guy/church-plant-team-member-guy.php' );	
-            
-            
-						
+			require( CHURCH_PLANT_THEME_BUNDLE_PLUGIN_DIR . 'includes/stack-templates/church-plant-team-member-guy/church-plant-team-member-guy.php' );
+
+
+
 		}
 	}
 }
@@ -262,30 +262,30 @@ add_action('after_setup_theme', 'church_plant_theme_bundle_include_files', 9);
  * @return   boolean
  */
 function church_plant_theme_bundle_dependencies(){
-	
-	//These values come from each Stack template's Utility File and are pasted in			
+
+	//These values come from each Stack template's Utility File and are pasted in
 	$required_text_domain_strings = church_plant_theme_bundle_dependencies_array();
-	
+
 	//Loop through each textdomain
 	foreach ( $required_text_domain_strings as $text_domain => $plugin_checker_file ){
-		
+
 		//If this function does not exist
 		if ( !function_exists( $text_domain ) ){
-			
+
 			//If this is not a function but it is a class
 			if ( class_exists( $text_domain ) ){
-				return true;	
+				return true;
 			}
-			
+
 			//Return false
 			return false;
 		}
-		
+
 	}
-	
+
 	//Return true - all text domains required exist.
 	return true;
-		
+
 }
 
 function church_plant_theme_bundle_dependencies_array(){
@@ -301,7 +301,7 @@ function church_plant_theme_bundle_dependencies_array(){
 		'mp_easy_icons_textdomain' => 'mp-easy-icons-check.php',
 		'mp_events_textdomain' => 'mp-events-check.php',
 		'Church_Theme_Content' => 'church-theme-content.php',
-		
+
 		//Pasted from Stack Template's Utility File:
 		'mp_stacks_animation_textdomain' => 'mp-stacks-animation-check.php',
         'mp_stacks_embedsgrid_textdomain' => 'mp-stacks-embedsgrid-check.php',
@@ -322,6 +322,5 @@ function church_plant_theme_bundle_dependencies_array(){
 
 		//Don't forget to copy and paste the "check" files into the "includes > plugin-checker > included-plugins" directory.
 
-	);	
+	);
 }
-			
