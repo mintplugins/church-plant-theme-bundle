@@ -3,8 +3,8 @@ Contributors: johnstonphilip
 Donate link: http://mintplugins.com/
 Tags: page, builder, stacks, bricks
 Requires at least: 3.5
-Tested up to: 4.5
-Stable tag: 1.0.0.4
+Tested up to: 4.8
+Stable tag: 1.0.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,12 @@ See full instructions at http://mintplugins.com/doc/church-plant-theme-bundle
 
 
 == Changelog ==
+
+= 1.0.0.6 = September 2, 2017
+* Add check for allow_url_fopen upon installation
+
+= 1.0.0.5 = September 2, 2017
+* Output message if PHPZip is not installed.
 
 = 1.0.0.4 = July 30, 2016
 * Set events brick min-height to 10
