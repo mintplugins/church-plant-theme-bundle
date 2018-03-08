@@ -81,16 +81,6 @@ function mp_theme_bundle_activation_set_up_plugin(){
 		return;
 	}
 
-	if( ! ini_get('allow_url_fopen') ) {
-
-		echo __( 'Oops! Your webhost is not properly configured for WordPress. Let them know they need to enable "allow_url_fopen". Once they do, try reactivating this theme again', 'mp-core' );
-
-		unset( $mp_core_options['mp_theme_bundle_activation_set_up_plugin'] );
-		update_option( 'mp_core_options', $mp_core_options );
-
-		die();
-	}
-
 	//Set the method for the wp filesystem
 	$method = ''; // Normally you leave this an empty string and it figures it out by itself, but you can override the filesystem method here
 
