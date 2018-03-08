@@ -3,8 +3,8 @@ Contributors: johnstonphilip
 Donate link: http://mintplugins.com/
 Tags: page, builder, stacks, bricks
 Requires at least: 3.5
-Tested up to: 4.8
-Stable tag: 1.0.0.6
+Tested up to: 4.9.4
+Stable tag: 1.0.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,10 @@ See full instructions at http://mintplugins.com/doc/church-plant-theme-bundle
 
 
 == Changelog ==
+
+= 1.0.0.7 = September 2, 2017
+* Fixes for allow_url_fopen
+* Modify plugin checker file which tests for knapstack so it works with child theme activated.
 
 = 1.0.0.6 = September 2, 2017
 * Add check for allow_url_fopen upon installation
