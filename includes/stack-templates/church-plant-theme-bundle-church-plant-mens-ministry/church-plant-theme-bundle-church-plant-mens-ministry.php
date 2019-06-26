@@ -13,7 +13,7 @@
 	   		$installed_templates['mp_stacks_church_plant_theme_bundle_church_plant_mens_ministry_array'] = array(
 	   			'template_slug' => 'church_plant_theme_bundle_church_plant_mens_ministry',
 	   			'template_title' => __( 'Men\'s Ministry', 'church_plant_theme_bundle' ),
-	   			'template_description' => __('The "Men's Ministry" stack template included in the Church Plant Theme Bundle', 'church_plant_theme_bundle' ),
+	   			'template_description' => __('The "Men\'s Ministry" stack template included in the Church Plant Theme Bundle', 'church_plant_theme_bundle' ),
 	   			'template_tags' => 'church',
 	   			'template_preview_img' => '',
 	   			'template_demo_url' => 'https://demo.mintplugins.com/church-plant/stack/church-plant-theme-bundle-church-plant-mens-ministry',
@@ -1014,7 +1014,7 @@
 );
 
             // Set a standard for the descriptions of Stack Templates in Theme Bundles
-            $template_array['stack_description'] = __('The "Men's Ministry" stack template included in the Church Plant Theme Bundle', 'church_plant_theme_bundle' );
+            $template_array['stack_description'] = __('The "Men\'s Ministry" stack template included in the Church Plant Theme Bundle', 'church_plant_theme_bundle' );
 
 			//Loop through each brick
 			foreach( $template_array['stack_bricks'] as $brick_name => $brick_options ){

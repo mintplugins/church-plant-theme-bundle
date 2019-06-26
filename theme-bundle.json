@@ -204,13 +204,6 @@
                 "add_to_primary_menu": false,
                 "is_home": false,
                 "is_footer": false
-            },
-            "church_plant_theme_bundle_test_stack_for_mint": {
-                "title": "test stack for mint",
-                "file_name": "church-plant-theme-bundle-test-stack-for-mint\/church-plant-theme-bundle-test-stack-for-mint.php",
-                "add_to_primary_menu": false,
-                "is_home": false,
-                "is_footer": false
             }
         }
     },
