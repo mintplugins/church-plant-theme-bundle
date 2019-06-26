@@ -31,7 +31,7 @@
  			$add_plugins = array(
  				array(
  					'plugin_name' => 'KnapStack Theme',
- 					'plugin_message' => __('You require the KnapStack Theme. Install it here.', 'mp_knapstack'),
+ 					'plugin_message' => __('You require the KnapStack Theme. Install it here.', 'church_plant_theme_bundle'),
  					'plugin_filename' => '',
  					'plugin_download_link' => 'http://mintplugins.com/repo/knapstack-theme/?downloadfile=true',
  					'plugin_api_url' => 'https://mintplugins.com/',

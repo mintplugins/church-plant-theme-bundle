@@ -1,0 +1,252 @@
+{
+    "version": "2.0.0.0",
+    "fancy_name": "Church Plant Theme Bundle",
+    "slug": "church_plant_theme_bundle",
+    "cap_slug": "CHURCH_PLANT_THEME_BUNDLE",
+    "dashed_slug": "church-plant-theme-bundle",
+    "plugin_filename": "church-plant-theme-bundle.php",
+    "child_theme_fancy_name": "Church Plant Theme Bundle (Child Theme)",
+    "child_theme_directory_name": "church-plant-theme-bundle-child-theme",
+    "plugin_api_url": "https:\/\/mintplugins.com\/",
+    "licensed": true,
+    "dependencies": {
+        "Church_Theme_Content": "church-theme-content.php",
+        "mp_buttons_textdomain": "mp-buttons-check.php",
+        "mp_events_textdomain": "mp-events-check.php",
+        "mp_menu_textdomain": "mp-menu-check.php",
+        "mp_knapstack_textdomain": "mp-knapstack-check.php",
+        "mp_easy_icons_textdomain": "mp-easy-icons-check.php",
+        "mp_customizer_backups_textdomain": "mp-customizer-backups-check.php",
+        "mp_core_textdomain": "mp-core-check.php",
+        "mp_stacks_textdomain": "mp-stacks-check.php",
+        "church_plant_theme_bundle_child_theme_exists": "church-plant-theme-bundle-child-theme.php",
+        "mp_stacks_animation_textdomain": "mp-stacks-animation-check.php",
+        "mp_stacks_embedsgrid_textdomain": "mp-stacks-embedsgrid-check.php",
+        "mp_stacks_eventgrid_textdomain": "mp-stacks-eventgrid-check.php",
+        "mp_stacks_features_textdomain": "mp-stacks-features-check.php",
+        "mp_stacks_forms_textdomain": "mp-stacks-forms-check.php",
+        "mp_stacks_googlefonts_textdomain": "mp-stacks-googlefonts-check.php",
+        "mp_stacks_googlemaps_textdomain": "mp-stacks-googlemaps-check.php",
+        "mp_stacks_icons_textdomain": "mp-stacks-icons-check.php",
+        "mp_stacks_linkgrid_textdomain": "mp-stacks-linkgrid-check.php",
+        "mp_stacks_parallax_textdomain": "mp-stacks-parallax-check.php",
+        "mp_stacks_postgrid_textdomain": "mp-stacks-postgrid-check.php",
+        "mp_stacks_second_text_textdomain": "mp-stacks-second-text-check.php",
+        "mp_stacks_sermongrid_textdomain": "mp-stacks-sermongrid-check.php",
+        "mp_stacks_slider_textdomain": "mp-stacks-slider-check.php",
+        "mp_stacks_sociallinks_textdomain": "mp-stacks-sociallinks-check.php",
+        "mp_stacks_widgets_textdomain": "mp-stacks-widgets-check.php"
+    },
+    "stack_templates": {
+        "page": {
+            "church_plant_theme_bundle_church_plant_home": {
+                "title": "Home",
+                "file_name": "church-plant-theme-bundle-church-plant-home\/church-plant-theme-bundle-church-plant-home.php",
+                "add_to_primary_menu": true,
+                "is_home": true,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_about": {
+                "title": "About",
+                "file_name": "church-plant-theme-bundle-church-plant-about\/church-plant-theme-bundle-church-plant-about.php",
+                "add_to_primary_menu": true,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_blog": {
+                "title": "Blog",
+                "file_name": "church-plant-theme-bundle-church-plant-blog\/church-plant-theme-bundle-church-plant-blog.php",
+                "add_to_primary_menu": true,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_connect": {
+                "title": "Connect",
+                "file_name": "church-plant-theme-bundle-church-plant-connect\/church-plant-theme-bundle-church-plant-connect.php",
+                "add_to_primary_menu": true,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_events": {
+                "title": "Events",
+                "file_name": "church-plant-theme-bundle-church-plant-events\/church-plant-theme-bundle-church-plant-events.php",
+                "add_to_primary_menu": true,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_food_for_life": {
+                "title": "Food For Life",
+                "file_name": "church-plant-theme-bundle-church-plant-food-for-life\/church-plant-theme-bundle-church-plant-food-for-life.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_give_online": {
+                "title": "Give Online",
+                "file_name": "church-plant-theme-bundle-give-online\/church-plant-theme-bundle-give-online.php",
+                "add_to_primary_menu": true,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_jane_doe": {
+                "title": "Jane Doe",
+                "file_name": "church-plant-theme-bundle-church-plant-jane-doe\/church-plant-theme-bundle-church-plant-jane-doe.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_john_doe": {
+                "title": "John Doe",
+                "file_name": "church-plant-theme-bundle-church-plant-john-doe\/church-plant-theme-bundle-church-plant-john-doe.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_life_groups": {
+                "title": "Life Groups",
+                "file_name": "church-plant-theme-bundle-church-plant-life-groups\/church-plant-theme-bundle-church-plant-life-groups.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_mens_ministry": {
+                "title": "Men's Ministry",
+                "file_name": "church-plant-theme-bundle-church-plant-mens-ministry\/church-plant-theme-bundle-church-plant-mens-ministry.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_resources": {
+                "title": "Resources",
+                "file_name": "church-plant-theme-bundle-church-plant-resources\/church-plant-theme-bundle-church-plant-resources.php",
+                "add_to_primary_menu": true,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_small_group": {
+                "title": "Small Group",
+                "file_name": "church-plant-theme-bundle-church-plant-small-group\/church-plant-theme-bundle-church-plant-small-group.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_team_member_girl": {
+                "title": "Team Member Girl",
+                "file_name": "church-plant-theme-bundle-church-plant-team-member-girl\/church-plant-theme-bundle-church-plant-team-member-girl.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_team_member_guy": {
+                "title": "Team Member Guy",
+                "file_name": "church-plant-theme-bundle-church-plant-team-member-guy\/church-plant-theme-bundle-church-plant-team-member-guy.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_womens_ministry": {
+                "title": "Women's Ministry",
+                "file_name": "church-plant-theme-bundle-church-plant-womens-ministry\/church-plant-theme-bundle-church-plant-womens-ministry.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            },
+            "church_plant_theme_bundle_church_plant_youth_group": {
+                "title": "Youth Group",
+                "file_name": "church-plant-theme-bundle-church-plant-youth-group\/church-plant-theme-bundle-church-plant-youth-group.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false,
+                "page_template": "default"
+            }
+        },
+        "none": {
+            "church_plant_theme_bundle_church_plant_blogs_for_footer": {
+                "title": "Blogs For Footer",
+                "file_name": "church-plant-theme-bundle-church-plant-blogs-for-footer\/church-plant-theme-bundle-church-plant-blogs-for-footer.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false
+            },
+            "church_plant_theme_bundle_church_plant_footer": {
+                "title": "Footer",
+                "file_name": "church-plant-theme-bundle-church-plant-footer\/church-plant-theme-bundle-church-plant-footer.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": true
+            },
+            "church_plant_theme_bundle_church_plant_sermons_for_footer": {
+                "title": "Sermons For Footer",
+                "file_name": "church-plant-theme-bundle-church-plant-sermons-for-footer\/church-plant-theme-bundle-church-plant-sermons-for-footer.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false
+            },
+            "church_plant_theme_bundle_church_plant_social_media_for_footer": {
+                "title": "Social Media For Footer",
+                "file_name": "church-plant-theme-bundle-church-plant-social-media-for-footer\/church-plant-theme-bundle-church-plant-social-media-for-footer.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false
+            },
+            "church_plant_theme_bundle_test_stack_for_mint": {
+                "title": "test stack for mint",
+                "file_name": "church-plant-theme-bundle-test-stack-for-mint\/church-plant-theme-bundle-test-stack-for-mint.php",
+                "add_to_primary_menu": false,
+                "is_home": false,
+                "is_footer": false
+            }
+        }
+    },
+    "niche_misc_functions": [
+        "include-church-tithe-wp.php"
+    ],
+    "theme_mods": {
+        "0": false,
+        "mp_knapstack_header_bg_color_opacity": "0",
+        "mp_knapstack_header_bg_color": "#ffffff",
+        "mp_core_logo": "https:\/\/demo.mintplugins.com\/church-plant\/wp-content\/uploads\/sites\/17\/2016\/07\/church-plant-logo.png",
+        "mp_core_logo_width": "400",
+        "nav_menu_locations": {
+            "primary": 3
+        },
+        "mp_knapstack_header_bg_color_opacity_at_scroll": "",
+        "mp_knapstack_header_font_size": "12",
+        "mp_knapstack_header_fixed": "absolute",
+        "mp_knapstack_header_bg_opacity_scroll_amount": "",
+        "mp_knapstack_sub_header_positioning": "left",
+        "mp_search_in_menu_searchicon_color": "#ffffff",
+        "mp_stacks_footer_stack": "21",
+        "mp_knapstack_header_nav_text_hover_color": "#b7b7b7",
+        "mp_knapstack_header_font": "Montserrat",
+        "mp_knapstack_header_bump_site_down": false,
+        "mp_menu_change_at_screen_width": "800",
+        "mp_menu_toggle_color": "#ffffff",
+        "mp_knapstack_page_header_bg_image": "https:\/\/demo.mintplugins.com\/church-plant\/wp-content\/uploads\/sites\/17\/2016\/06\/blog_black.jpg",
+        "mp_knapstack_page_header_button_submit": "#515151",
+        "mp_menu_open_from": "mp-menu-right.css",
+        "mp_menu_attachment": "absolute",
+        "mp_knapstack_text_color": "#4c4c4c",
+        "mp_knapstack_button_text_hover": "#9e1f63",
+        "custom_css_post_id": -1,
+        "mp_knapstack_button_submit": "#9e1f63",
+        "mp_knapstack_button_hover": "#f2f2f2",
+        "mp_knapstack_button_text": "#f2f2f2"
+    }
+}

@@ -1,15 +1,15 @@
 <?php
 /**
- * This file contains the functions needed to properly install the Church Plant Theme Bundle.
+ * This file contains the functions needed to properly install the Theme Bundle.
  *
  * @link http://mintplugins.com/doc/
  * @since 1.0.0
  *
- * @package    Church Plant Theme Bundle
+ * @package    Theme Bundle
  *
  * @copyright  Copyright (c) 2015, Mint Plugins
  * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License
- * @author     Philip Johnston
+ * @author     Mint Plugins
  */
 
 /**
@@ -81,6 +81,8 @@ function mp_theme_bundle_activation_set_up_plugin(){
 		return;
 	}
 
+	$theme_bundle_info = mp_get_theme_bundle_info();
+
 	//Set the method for the wp filesystem
 	$method = ''; // Normally you leave this an empty string and it figures it out by itself, but you can override the filesystem method here
 
@@ -106,20 +108,25 @@ function mp_theme_bundle_activation_set_up_plugin(){
 
 	$plugins_dir = $wp_filesystem->wp_plugins_dir();
 
+	// Zip file name
+	$zip_file_name = $theme_bundle_info['dashed_slug'] . '.zip';
+
+	$plugin_file_name = $plugins_dir . '/' . $theme_bundle_info['dashed_slug'] . '/' . $theme_bundle_info['plugin_filename'];
+
 	//If this corresponding Theme Bundle plugin is already active, de-activate it now:
-	deactivate_plugins( $plugins_dir . '/church-plant-theme-bundle/church-plant-theme-bundle.php' );
+	deactivate_plugins( $plugin_file_name );
 
 	//Create a zip containing this "theme" in the plugins directory
-	mp_core_zip_directory( realpath( get_template_directory() ), $plugins_dir . '/church-plant-theme-bundle.zip' );
+	mp_core_zip_directory( realpath( get_template_directory() ), $plugins_dir . '/' . $zip_file_name );
 
 	//Unzip it
-	$unzip_result = unzip_file( $plugins_dir . '/church-plant-theme-bundle.zip', $plugins_dir . '/' );
+	$unzip_result = unzip_file( $plugins_dir . '/' . $zip_file_name, $plugins_dir . '/' );
 
 	//Delete the temp zipped file
-	$wp_filesystem->rmdir( $plugins_dir . '/church-plant-theme-bundle.zip' );
+	$wp_filesystem->rmdir( $plugins_dir . '/' . $zip_file_name );
 
 	//Now that the plugin is where it needs to be, activate it.
-	activate_plugin( $plugins_dir . '/church-plant-theme-bundle/church-plant-theme-bundle.php' );
+	activate_plugin( $plugin_file_name );
 
 	unset( $mp_core_options['mp_theme_bundle_activation_set_up_plugin'] );
 	update_option( 'mp_core_options', $mp_core_options );
@@ -161,6 +168,30 @@ function mp_theme_bundle_activation_set_up_plugin(){
 
 }
 add_action( 'admin_menu', 'mp_theme_bundle_activation_set_up_plugin' );
+
+/**
+ * The theme bundle array, containing all data unique to this theme bundle
+ *
+ * @since    1.0.0
+ * @link     http://mintplugins.com/doc/
+ * @see      function_name()
+ * @param    array $args See link for description.
+ * @return   array
+ */
+function mp_get_theme_bundle_info(){
+
+	$path = get_template_directory() . '/theme-bundle.json';
+
+	// We gotta get fancy here to include the json the way we need because some hosts block file opening options
+	ob_start();
+	include( $path );
+	$response = ob_get_clean();
+
+	$theme_bundle = json_decode( $response, true );
+
+	return $theme_bundle;
+
+}
 
 /**
  * Zip a directory and all of its files and subdirectories

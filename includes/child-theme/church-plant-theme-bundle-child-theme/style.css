@@ -1,0 +1,11 @@
+/*
+Theme Name:     Church Plant Theme Bundle (Child Theme)
+Theme URI:      https://mintplugins.com/church-plant-theme-bundle-child-theme
+Description:    Child Theme for the Church Plant Theme Bundle using the Knapstack Theme as the theme parent.
+Author:         Mint Plugins
+Author URI:     https://mintplugins.com
+Template:       knapstack
+Version:        1.0.0
+*/
+
+@import url("../knapstack/style.css");
